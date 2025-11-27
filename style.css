@@ -798,6 +798,10 @@ object-fit: cover;
 .accordion-toggle::before {
     content: '+';
 }
+.accordion-item[open] .accordion-body {
+    padding: 0 0 22px 34px;
+}
+
 
 
 
