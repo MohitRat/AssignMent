@@ -5,20 +5,20 @@
         }
         @font-face {
             font-family: 'Gellix';
-            src: url('./font/Gellix-SemiBold.woff') format('woff');
+            src: url('./Gellix-SemiBold.woff') format('woff');
             font-weight: 600;
             font-style: normal;
         }
 
         @font-face {
             font-family: 'Marlide Display';
-            src: url('./font/MarlideDisplay_Medium.woff') format('woff');
+            src: url('./MarlideDisplay_Medium.woff') format('woff');
             font-weight: 600;
             font-style: normal;
         }
         @font-face {
             font-family: 'Gellix Regular';
-            src: url('./font/Gellix-Regular.woff') format('woff');
+            src: url('./Gellix-Regular.woff') format('woff');
             /* font-weight: 600; */
             font-style: normal;
         }
@@ -787,4 +787,5 @@
 .accordion-toggle.minus {
     display: none;
 }
+
 
