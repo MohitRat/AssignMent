@@ -684,6 +684,7 @@
             }
             .why-work-section{
                 padding-bottom: 30px;
+                padding-top: 30px;
             }
             .bottom-text_container{
                 row-gap: 10px;
@@ -793,6 +794,7 @@ object-fit: cover;
     width: 100%;
     display: block;
 }
+
 
 
 
