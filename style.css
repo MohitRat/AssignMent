@@ -787,5 +787,9 @@
 .accordion-toggle.minus {
     display: none;
 }
+.hero-bg video{
+object-fit:cover;
+}
+
 
 
