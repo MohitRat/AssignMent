@@ -368,7 +368,6 @@
             color: white;
             max-width: 500px;
             position: relative;
-            box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.15);
             transform: translateX(86px);
             z-index: 10;
             border-top-right-radius: 20px;
@@ -794,6 +793,7 @@ object-fit: cover;
     width: 100%;
     display: block;
 }
+
 
 
 
