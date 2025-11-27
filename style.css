@@ -555,7 +555,7 @@
             .green-card h2 {
                 font-size: 28px;
                 margin-bottom: 28px;
-                max-width: 250px;
+                max-width: 245px;
                 line-height: 38px;
             }
 
@@ -802,6 +802,7 @@ object-fit: cover;
 .accordion-item[open] .accordion-body {
     padding: 0 0 22px 34px;
 }
+
 
 
 
