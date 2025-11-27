@@ -392,6 +392,7 @@
             line-height: 46px;
             margin-bottom: 22px;
             font-family: 'Marlide Display';
+               max-width:333px;
         }
         .benefits-list {
             margin-bottom: 35px;
@@ -801,6 +802,7 @@ object-fit: cover;
 .accordion-item[open] .accordion-body {
     padding: 0 0 22px 34px;
 }
+
 
 
 
