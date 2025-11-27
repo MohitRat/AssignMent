@@ -444,9 +444,6 @@
             transition: all 0.3s ease;
         }
 
-        .accordion-header:hover {
-            opacity: 0.85;
-        }
 
         .accordion-header-content {
             display: flex;
@@ -793,6 +790,26 @@ object-fit: cover;
     width: 100%;
     display: block;
 }
+.accordion-item {
+    border: none; /* agar pehle border tha */
+}
+
+.accordion-header {
+    list-style: none; 
+    cursor: pointer;
+}
+
+.accordion-header::-webkit-details-marker {
+    display: none; 
+}
+.accordion-item[open] .accordion-toggle::before {
+    content: '-';
+}
+
+.accordion-toggle::before {
+    content: '+';
+}
+
 
 
 
