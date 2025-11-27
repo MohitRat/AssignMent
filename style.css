@@ -785,9 +785,6 @@ object-fit: cover;
     width: 100%;
     display: block;
 }
-.accordion-item {
-    border: none; /* agar pehle border tha */
-}
 
 .accordion-header {
     list-style: none; 
@@ -804,6 +801,7 @@ object-fit: cover;
 .accordion-toggle::before {
     content: '+';
 }
+
 
 
 
