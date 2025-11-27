@@ -181,26 +181,7 @@
 </footer>
 
 
-    <script>
-        // Accordion functionality
-        function toggleAccordion(button) {
-            const accordionItem = button.parentElement;
-            const body = accordionItem.querySelector('.accordion-body');
-            const isActive = button.classList.contains('active');
 
-            // Close all accordions
-            document.querySelectorAll('.accordion-header').forEach(btn => {
-                btn.classList.remove('active');
-                btn.parentElement.querySelector('.accordion-body').classList.remove('active');
-            });
-
-            // Open clicked accordion if it wasn't active
-            if (!isActive) {
-                button.classList.add('active');
-                body.classList.add('active');
-            }
-        }
-    </script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 <!-- Slick JS -->
@@ -210,6 +191,7 @@
 </body>
 
 </html>
+
 
 
 
