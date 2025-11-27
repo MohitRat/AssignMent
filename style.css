@@ -476,10 +476,7 @@
 
 
 
-        .accordion-body.active {
-            max-height: 300px;
-            padding: 0 0 22px 34px;
-        }
+
 
         .accordion-body p {
             font-size: 14px;
@@ -801,6 +798,7 @@ object-fit: cover;
 .accordion-toggle::before {
     content: '+';
 }
+
 
 
 
